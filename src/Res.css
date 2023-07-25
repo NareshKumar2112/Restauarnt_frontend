@@ -1,0 +1,192 @@
+
+.box1 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(235, 223, 223, 0.1);
+  line-height: 0;
+}
+
+.box1 > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box1 > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box1:hover { flex: 1 1 50%; }
+.box1:hover > img {
+  width: 100%;
+  height: 100%;
+}
+ */
+ /* Styling the area of the slides */
+ .navigation
+ {
+   height: 2rem;
+   background-color: rgba(58, 47, 47, 0.048);
+}
+  .navigation a {
+    position: relative;
+    font-size: 1.6em;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 35px;
+    left: 900px;
+    top:10px;
+    border-radius: 2px;
+    padding: 2px;
+  }
+.head
+{
+    background-color: rgba(0,0,0,0.5);
+}
+.bcc
+{
+  background-color: black;
+}
+
+.bod5
+{
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    height:115vh;
+    /* position:relative */
+}
+.navigation a::after {
+    content: " ";
+    position: fixed;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform.5s; 
+}
+.navigation a:hover {
+
+    transform: scaleX(1);
+    border-bottom: 5px solid rgb(13, 1, 1);
+    /* color: rgb(255, 255, 255); */
+}
+  #slideshow {
+  overflow: hidden;
+  width:100%;
+  margin: 0 auto;
+  margin-top: .2cm;
+  position: fixed;
+  height:20cm;
+  position: relative;
+  }
+  .bod3
+  {
+    /* background-color: rgb(255, 173, 252); */
+    background-size: cover;
+    background-attachment: fixed;
+    width: 1500px;
+    height: 500px;
+  }
+  .slide {
+  float: left;
+  height:30cm;
+  width: 1500px;
+  }
+ 
+  .slide-wrapper {
+  
+  width: calc(1500px * 7);
+  height: calc(1000px * 7);
+  animation: slide 30s ease infinite;
+  }
+ 
+  @keyframes slide {
+  
+  /* Calculate the margin-left for
+  each of the slides */
+  10% {
+    margin-left: 0px;
+  }
+  
+  20% {
+    margin-left: calc(-1500px * 1);
+  }
+  
+  30% {
+    margin-left: calc(-1500px * 2);
+  }
+  
+  40% {
+    margin-left: calc(-1500px * 3);
+  }
+  50% {
+    margin-left: calc(-1500px * 4);
+  }
+  60% {
+    margin-left: calc(-1500px * 5);
+  }
+  70% {
+    margin-left: calc(-1500px * 6);
+  }
+  }
+
+.heig
+{
+    width:2cm;
+    height:6cm;
+}
+.sliderss
+{
+   margin-top: -5rem;
+} 
+.oontainer
+{
+width: 100%;
+min-height: 100vh;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #14213d;
+}
+
+.vvtext span {
+font-size: 50px;
+padding:1px;
+text-transform: uppercase;
+color: #000000;
+margin-left:3cm;
+animation: zoomup 2s linear infinite;
+animation-delay: calc(500ms * var(--i));
+}
+
+@keyframes zoomup {
+0%,
+100% {
+  color: #00c2ba;
+  filter: blur(1px);
+  text-shadow: 0 0 10px #00c2ba, 0 0 20px #00c2ba, 0 0 30px #00c2ba,
+    0 0 40px #00c2ba, 0 0 60px #00c2ba, 0 0 80px #00c2ba, 0 0 100px #00c2ba,
+    0 0 120px #00c2ba;
+}
+
+5%,
+95% {
+  filter: blur(0);
+  color: #000000;
+  text-shadow: none;
+}
+}

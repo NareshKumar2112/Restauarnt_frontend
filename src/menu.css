@@ -1,0 +1,227 @@
+.ndex-banner{
+	position:relative;
+	background: #b3b3b3;
+}
+.ndex-banner-bg{
+	height: 570px;
+	overflow: hidden;
+}
+.ndex-banner-bg img{
+	margin: 0 auto;
+}
+.ndex-banner-text{
+	position: absolute;
+	top:200px;
+	left: 50%;
+	margin-left: -388px;
+}
+.ndex-banner-text .text-logo{
+	width:776px;
+	height:117px;
+	background: url("https://github.com/JessicaPotter2/foodWebsite/blob/master/images/text-logo.png?raw=true") no-repeat;
+}
+.ndex-banner-text .text-info{
+	margin-top: 17px;
+	text-align: center;
+	color:#fff;
+	
+}
+.ndex-banner-text .text-info .line{
+	display: inline-block;
+	width: 40px;
+	border-top:1px solid #fff;
+	vertical-align: middle;
+	margin-top:22px;
+}
+.ndex-banner-text .text-info .text{
+	margin:0 26px;
+}
+
+.ndex-menu{
+	position: relative;
+	border-top:4px solid #f34949;
+
+}
+.ndex-menu .menu-tips{
+	position: absolute;
+	left: 50%;
+	top:0;
+	margin-left:-78px;
+	width: 156px;
+	height: 75px;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	background: #f34949;
+}
+.ndex-menu .menu-tips:after {
+	position: absolute;
+	content: '';
+	left: 0;
+	bottom: 0;
+	width: 0;
+	height: 0;
+	border-left: 78px solid transparent;
+	border-right: 78px solid transparent;
+	border-bottom: 10px solid #fff;
+}
+.ndex-menu .menu-list{
+	margin-top: 150px;
+	color:#555;
+	overflow: hidden;
+	margin-bottom: 92px;
+}
+.ndex-menu .menu-list ul{
+	width: 1160px;
+}
+.ndex-menu .menu-item{
+	float: left;
+	width:520px;
+	margin-right: 60px;
+	margin-bottom: 56px;
+}
+.ndex-menu .menu-item .title,.index-menu .menu-item .line{
+	float: left;
+
+}
+.ndex-menu .menu-item .price{
+	float: right;
+	
+}
+.ndex-menu .menu-item .title{
+	width:230px;
+	color:#010b0b;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+}
+.ndex-menu .menu-item .line{
+	margin-top: 10px;
+	width: 192px;
+	border-top: 1px solid #e3e1e1;
+}
+.ndex-menu .menu-item .comment{
+	margin-top: 4px;
+	color:#9f2626;
+	font-size: 12px;
+	text-align: center;
+}
+.ndex-menu .menu-more-btn{
+	margin:0 auto;
+	width: 114px;
+	height: 32px;
+	padding-left: 16px;
+	border:1px solid #d7d5d5;
+	font-size: 14px;
+	line-height: 32px;
+	color:#b7b7b7;
+}
+.ndex-menu .menu-more-btn .icon{
+	display: inline-block;
+	width: 11px;
+	height: 7px;
+	margin-left: 10px;
+	background: url("https://github.com/JessicaPotter2/foodWebsite/blob/master/images/more-button.png?raw=true");
+}
+.ndex-panel{
+	margin:0 auto;
+	margin-top: 200px;
+	position: relative;
+	width: 1100px;
+
+}
+
+.nedx-panel-header h2{
+	float: left;
+	margin-right: 48px;
+	font-size: 20px;
+	color:#3b3b3b;
+	font-weight: normal;
+}
+.nedx-panel-header .line{
+	float: left;
+	margin-top: 10px;
+	width: 200px;
+	border-top: 1px solid #e5e3e3;
+}
+.nedx-panel-header .btn-group{
+	font-size: 0;
+	float: right;
+}
+.nedx-panel-header .btn{
+	display: inline-block;
+	margin-left: 11px;
+	width: 9px;
+	height: 9px;
+	background: #dedede;
+	border-radius: 50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+}
+.nedx-panel-header .active{
+	background: #9b9b9b;
+
+}
+.ndex-panel-body{
+	margin-top: 75px;
+}
+.ndex-food-list{
+	overflow: hidden;
+}
+.ndex-food-list ul{
+	width: 2160px;
+}
+.ndex-food-list .food-item{
+	float: left;
+	width: 230px;
+	margin-right: 60px;
+
+}
+.ndex-food-list .food-item .banner{
+	margin-bottom: 30px;
+	height:202px;
+}
+.ndex-food-list .food-item .name{
+	color: #555;
+	margin-bottom: 10px;
+}
+.ndex-food-list .food-item .star-bar{
+	font-size: 0;
+}
+.ndex-food-list .food-item .star{
+	display: inline-block;
+	width: 12px;
+	height: 13px;
+	margin-right: 5px;
+	background-image: url("https://github.com/JessicaPotter2/foodWebsite/blob/master/images/star.png?raw=true");
+	background-repeat: no-repeat;
+
+}
+.ndex-food-list .food-item .no-star{
+	background-position: 0 -13px;
+}
+.ndex-food-list .food-item .price{
+	float:right;
+}
+.ndex-pics{
+	height:380px;
+	overflow: hidden;
+}
+.ndex-pics .pic-col{
+	float: left;
+}
+.ndex-pics .pic-col-l{
+	width: 460px;
+}
+.ndex-pics .pic-col-m{
+	width:352px;
+}
+.ndex-pics .pic-col-s{
+	width: 288px
+}
+.public-container{
+	position: relative;
+	margin:0 auto;
+	width:2100px;
+}

@@ -1,0 +1,118 @@
+  *, *:before, *:after {
+    box-sizing: inherit;
+    padding: 20px;
+  }
+  
+  .ccolumn {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .ccard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .cabout-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .ccontainer {
+    padding: 0 16px;
+  }
+  
+  .ccontainer::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .ctitle {
+    color: grey;
+  }
+  
+  .cbutton {
+    border: none;
+    outline: 0;
+    display:flex;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .cbutton:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+}
+ccbody { font: 400 18px/26px Verdana, sans-serif;}
+cch2, h3 {
+  text-align: center;
+}
+
+.ccgallery {
+  margin:60px;
+  text-align: center;
+  width:10%;
+  display:flexbox;
+  flex-wrap: wrap; 
+  
+}
+
+.ccfigure {
+  border: 10px solid #DADCDB;
+  margin: 60px 60px;
+  padding: 0;
+}
+
+.ccfigure.ccimage {
+  display:inline-flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 30px;
+}
+
+.ccfigure img {
+  display:inline-block;
+  height: auto;
+  max-width: 100%;
+}
+
+.ccfigcaption {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: .9em 0;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.ccfigcaption span {
+  font-size: 14px;
+}
+.ccgallery .ccimage{
+  padding:75px;
+  display:flexbox;
+  
+  flex-wrap: wrap; 
+  
+}
+.imgg
+{
+  background-color: rgb(81, 224, 188);
+  background-size: cover;
+}
