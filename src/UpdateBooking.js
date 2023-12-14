@@ -4,8 +4,8 @@ import axios from 'axios';
 import pic111 from './user.png';
 import { useState } from 'react';
 import AdminLogin from './AdminLogin';
-import { Link } from 'react-router-dom';
-export default function UpdateBooking() {
+  import { Link } from 'react-router-dom';
+  export default function UpdateBooking() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [date, setDate] = useState("");

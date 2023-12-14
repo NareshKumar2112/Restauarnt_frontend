@@ -19,7 +19,7 @@
 }
 .navigation1
 {
-   background-color:rgb(8, 46, 81);
+   background-color:rgb(28, 34, 40);
     height:2cm;
     /* 246 93 118 */
 }
@@ -42,6 +42,15 @@
 .navigation1 a:hover {
   transform: scaleX(1);
   color:sandybrown;
+  font-weight: bold;
+  /* border-bottom: 5px solid rgb(255, 255, 255); */
+  /* color: rgb(255, 255, 255); */
+}
+
+.navigation1 a:active {
+  transform: scaleX(1);
+  color:sandybrown;
+  font-weight: bold;
   /* border-bottom: 5px solid rgb(255, 255, 255); */
   /* color: rgb(255, 255, 255); */
 }
@@ -53,7 +62,6 @@
   }
   .bod9
   {
-    background-image: url("log1.jpg");
     background-size: cover;
     height: 109vh;
   }
@@ -131,6 +139,7 @@
     padding:2cm;
     width: 14cm;
     margin-left: 12cm;
+    
   }
   .form-group button{
     width: 100%;

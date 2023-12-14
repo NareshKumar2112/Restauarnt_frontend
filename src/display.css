@@ -1,0 +1,62 @@
+/* DataDisplay.css */
+
+.bodya {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image:url("./components/Newimg-3.jpg");
+    background-size: cover;
+    height:19.8cm;
+    background-attachment: fixed;
+  }
+  
+  .data-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+  }
+  
+  .data-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .data-item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    text-align: left;
+    background: linear-gradient(45deg, #ff6b6b, #556270);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .data-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .data-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .data-item p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .data-item span {
+    font-size: 0.8em;
+    opacity: 0.8;
+  }
+  
+  .data-item:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4), 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  

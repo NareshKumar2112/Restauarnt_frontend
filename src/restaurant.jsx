@@ -1,23 +1,4 @@
 import React, { Component } from 'react'
-import './Res.css';
-import pic1 from './sd1.jpg';
-import pic2 from './sd2.jpg';
-import pic4 from './sd4.jpg';
-import pic5 from './sd5.png';
-import pic7 from './sd6.png';
-import pic8 from './sd7.png';
-import pic10 from './sd8.jpg';
-import ic1 from "../src/components/g1.jpg";
-import ic2 from '../src/components/g2.jpg';
-import ic3 from '../src/components/g3.jpg';
-import ic4 from '../src/components/g5.jpg';
-import ic5 from '../src/components/g6.jpg';
-import ic6 from '../src/components/g8.jpg';
- import ic7 from '../src/components/g9.jpg';
- import ic8 from '../src/components/g13.jpg';
- import ic10 from '../src/components/g14.jpg';
-import { Link } from 'react-router-dom';
-import './abt.css';
 
 
 export default class Rest extends Component {
@@ -27,7 +8,7 @@ export default class Rest extends Component {
       <div className='bod5'>
       <header>
       <nav class="navigation1">
-      <h1 style={{marginLeft:"3cm",fontSize:"45px",color:"white",fontFamily:"cursive"}}>Table Diary</h1>
+      <h1 style={{marginLeft:"3cm",fontSize:"45px",color:"#f4a460",fontFamily:"cursive"}}>Food Diary</h1>
       <div className='navcon'>
      <Link to='/'>Home</Link>
      <Link to='/res'>Restaurant</Link>

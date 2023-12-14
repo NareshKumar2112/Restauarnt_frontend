@@ -188,5 +188,6 @@ animation-delay: calc(500ms * var(--i));
   filter: blur(0);
   color: #000000;
   text-shadow: none;
+  color: #122040;
 }
 }

@@ -1,9 +1,9 @@
 /* @import url(
 "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 */
-#booody
+body
 {
-	background-color: rgb(255, 255, 255);
+	/* background-image:url('./background.jpeg'); */
 }
 
 .bod {
@@ -18,9 +18,12 @@
 	align-items: center;
 	flex-direction: column;
 	gap: 30px;
-	background-image: url("background.jpeg"); 
 	background-attachment: fixed;
-	 background-size: cover; 
+	background-image: url("imgnk1.jpg"); 
+	background-size: cover;
+	/* 
+	background-attachment: fixed;
+	 background-size: cover;  */
 }
 .bod4{
 
@@ -57,7 +60,7 @@
 .container {
 	height: 600px;
 	width: 500px;
-	background-color:rgb(255, 255, 255));
+	background-color:rgb(243, 144, 161);
 	/* box-shadow: 8px 8px 20px rgb(33, 30, 30); */
 	position: absolute;
 	overflow: hidden;
@@ -87,6 +90,8 @@
 	position: relative;
 	cursor: pointer;
 	z-index: 1;
+	background-image: url("imgnk1.jpg");
+	
 }
 
 .slider {
@@ -320,4 +325,8 @@
 		width: 130px;
 		font-size: 9px;
 	}
+}
+.naresh
+{
+	background-image: url("imgnk1.jpg");
 }

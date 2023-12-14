@@ -39,16 +39,20 @@ const BookingPage = () => {
         food:food
     };
     axios.post('http://localhost:8085/post2', data1)
-       
-    alert("Booking successfully")
-    navigate("/feedback")
+       try{
+         alert("Booking successfully")
+         navigate("/feedback")
+  }
+    catch{
+      console.log("error");
+    }
   }
   
   return (
     <>
     <div>
     <nav class="navigation1">
-    <h1 style={{marginLeft:"3cm",fontSize:"45px",color:"white",fontFamily:"cursive"}}>Table Diary</h1>
+    <h1 style={{marginLeft:"3cm",fontSize:"45px",color:"#f4a460",fontFamily:"cursive"}}>Food Diary</h1>
       <div className='navcon'>
     <Link to='/'>Home</Link>
     <Link to='/res'>Restaurant</Link>
@@ -132,7 +136,7 @@ const BookingPage = () => {
           <option value="Noodles">Noodles</option>
           <option value="Chilli Chicken">Chilli Chicken</option>
           <option value="icecream">Icecream</option>
-          <option value="Milk Shake">Milg Skake</option>
+          <option value="Milk Shake">Milg Shake</option>
         </select>
       </div>
       <div style={{display:"flex"}}>

@@ -1,9 +1,14 @@
-import React from "react";
-
-
-export const reserveTable = (reservation) => {
-    return {
-      type: 'RESERVE_TABLE',
-      payload: reservation,
-    };
+export const login = (username) => {
+  return {
+    type: 'LOGIN',
+    payload: username,
   };
+};
+
+export const logout = () =>{
+  return {
+      type :'LOGOUT',
+      
+      payload : null
+  }
+}

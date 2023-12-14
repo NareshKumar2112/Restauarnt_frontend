@@ -5,7 +5,7 @@
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #f7f3f3;
+    background-color: rgba(14, 90, 165, 0.633);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   }
@@ -56,7 +56,7 @@
   }
   .zf{
       
-  background-image:url("log5.jpg");
+  background-image:url("./components/Newimg-3.jpg");
   
   background-repeat: no-repeat;
   background-size: cover;
@@ -64,3 +64,25 @@
     width: 99vw;
   position: fixed;
   }
+  .radio-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  input[type="radio"]:checked + span {
+    font-weight: bold;
+    color: #007bff; 
+  }
+  

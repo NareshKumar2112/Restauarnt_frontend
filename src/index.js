@@ -6,16 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Connect from './router';
 import './style.css'
 import { Provider } from 'react-redux';
-import store from './store';
-// import App from './App';
-// import Registration from './Registration';
+import reducer from './reduce';
+import { createStore } from 'redux';
+import LoginsignUp from './Loginsignup';
 
-
+const store = createStore(reducer);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-  // <Registration/>
-  // </React.StrictMode>
   <Provider store={store}>
   <BrowserRouter>
   <Connect/>
@@ -23,7 +20,4 @@ root.render(
   </Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

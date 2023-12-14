@@ -1,9 +1,7 @@
-// import './App.css';
-// import './style.css';
 
 
 import Registration from './Registration';
-import Rest from './restaurant';
+import Rest from './Others/restaurant';
 function App() {
   return (
     <div className="App">

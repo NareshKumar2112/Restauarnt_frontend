@@ -1,3 +1,21 @@
+.nk1{
+  text-align: center;
+  background-color: #8cc6ff;
+  width:30cm;
+  height:30cm;
+  margin-left:5cm;
+  /* color:#f4a460; */
+}
+.nk2
+{
+  background-image: url("./components/Newimg-3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background: size 50%;
+  width:30cm;
+  height:30cm;
+  margin-left:5cm;
+}
 .navigation a {
     position: relative;
     font-size: 1.6em;
@@ -9,12 +27,12 @@
     top:10px;
     border-radius: 2px;
     padding: 2px;
+    color: #ffff5c;
 }
 .navigation
 {
-   
     height: 2cm;
-    
+    background-color: rgb(249, 55, 55);
 }
 .head
 {
@@ -22,7 +40,7 @@
 }
 .bod1
 {
-     background-image: url(Background.jpg);
+     background-image: url("./components/nkbk1.jpg");
     /* background: linear-gradient(to top,rgba(0,0,0,0.2)50%,rgba(0,0,0,0.2)50%); */
     background-size: cover;
     background-position: center;
@@ -30,7 +48,6 @@
     width:100%;
     height: 112vh;
     position:relative;
-    
 }
 .navigation a::after {
     content: " ";
@@ -96,32 +113,50 @@
 @media (min-width: 768px) {
   .button-51 {
     padding: 16px 32px;
+    
   }
+}
+.buton
+{ 
+    size:20px;
+    background-color: rgb(105, 242, 255);
+    color:black;
+    cursor: pointer;
+    display: inline-block;
+    font-style: italic;
+    font-size: 30px;
+    font-weight:200;
+    padding-top:-1cm;
+    padding-bottom:1cm;
+    position: relative;
+    text-align: center;
+   text-decoration: none; 
+    margin-left:900px;
+  border-radius:35px;
+  border-color:rgb(105, 242, 255);
+  height:0.5cm;
 }
 .button
 { 
+    size:20px;
+    background-color: rgb(249, 55, 55);
+    color:white;
     cursor: pointer;
     display: inline-block;
     font-style: italic;
     font-size: 30px;
     font-weight: 600;
-    /* outline: 0; */
-    /* padding: 15px 12px; */
     padding-top:-1cm;
     padding-bottom:1.5cm;
     position: relative;
-  text-align: center;
-  /* text-decoration: none; */
-  /* transition: all .3s; */
-  /* user-select: none; */
-  /* -webkit-user-select: none; */
-  /* touch-action: manipulation; */
+    text-align: center;
+   text-decoration: none; 
   margin-bottom: 0px;
-  margin-left:1000px;
+  margin-left:900px;
   margin-top:1cm;
-  border-radius:10px;
-  height:2cm;
-  text-align: center;
+  border-radius:35px;
+  border-color:rgb(249, 55, 55);
+  height:1.5cm;
 }
 .content
 {
@@ -129,14 +164,13 @@
   margin-left: 60vm;
   margin-right: 5vm;
 }
-.content-h1
+.content-h6
 {
     font-size: 60px;
-    margin-top: 2cm;
-    margin-left:590px;
-    margin-bottom:2cm;
+    margin-top:5cm;
+    margin-left:800px;
     font-style:italic;
-    color:rgb(33, 168, 209);
+    color:rgb(255, 255, 255);
     color: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);
     color: linear-gradient(to right, #5B86E5, #36D1DC);
   }
@@ -183,7 +217,7 @@
   }
   .button-71 {
     background-color:transparent;
-    color:rgb(255, 255, 255);
+    color:#6DCFF6;
     cursor: pointer;
     display: inline-block;
     font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
@@ -316,3 +350,83 @@
       position: unset;
     }
   }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .blinking-food {
+    animation: blink 1.5s infinite;
+  }
+  .food-offer {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .bouncing-food {
+    animation: bounce 1s infinite;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fading-food {
+    animation: fadeIn 1.5s infinite;
+  }
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .spinning-food {
+    animation: spin 2s linear infinite;
+  }
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+  }
+  
+  .pulsing-food {
+    animation: pulse 1s infinite;
+  }
+    .bknk
+    {
+      background-image:url("./components/nkbk5.JPG");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width:100%;
+      height: 112vh;
+      position:relative;
+    }
+  
